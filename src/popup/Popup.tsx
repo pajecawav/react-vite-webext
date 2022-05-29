@@ -1,6 +1,9 @@
 import { Logo } from "~/components/Logo";
+import { useDemoStorage } from "~/stores/useDemoStorage";
 
 export function App() {
+	const value = useDemoStorage(state => state.value);
+
 	function openOptionsPage() {
 		browser.runtime.openOptionsPage();
 	}
@@ -14,7 +17,7 @@ export function App() {
 				Open Options
 			</button>
 			<div className="mt-2">
-				<span className="opacity-50">Storage:</span> storageDemo
+				<span className="opacity-50">Storage:</span> {value}
 			</div>
 		</main>
 	);
