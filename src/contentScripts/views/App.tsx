@@ -16,12 +16,12 @@ export function App() {
 			>
 				WebExt
 			</div>
-			<div
+			<button
 				className="grid w-10 h-10 place-items-center rounded-full shadow cursor-pointer bg-teal-600 hover:bg-teal-700 text-white"
 				onClick={() => setShow(!show)}
 			>
 				<LogoIcon />
-			</div>
+			</button>
 		</div>
 	);
 }
