@@ -4,8 +4,6 @@ import { useDemoStorage } from "@/stores/useDemoStorage";
 export function App() {
 	const value = useDemoStorage(state => state.value);
 
-	console.log(browser.runtime.id, browser.runtime.getURL("callback"));
-
 	function openOptionsPage() {
 		browser.runtime.openOptionsPage();
 	}
