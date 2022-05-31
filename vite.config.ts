@@ -9,7 +9,7 @@ export const sharedConfig: UserConfig = {
 	root: r("src"),
 	resolve: {
 		alias: {
-			"~/": `${r("src")}/`,
+			"@": `${r("src")}/`,
 		},
 	},
 	define: {

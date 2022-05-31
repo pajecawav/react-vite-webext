@@ -1,6 +1,6 @@
 import { useState } from "react";
-import { LogoIcon } from "~/components/Logo";
-import { cn } from "~/utils";
+import { LogoIcon } from "@/components/Logo";
+import { cn } from "@/utils";
 import "../../styles/main.css";
 
 export function App() {

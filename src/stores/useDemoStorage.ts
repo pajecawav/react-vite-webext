@@ -1,6 +1,6 @@
 import create from "zustand";
 import { persist } from "zustand/middleware";
-import { storageLocal } from "~/logic/storage";
+import { storageLocal } from "@/logic/storage";
 
 interface Store {
 	value: string;

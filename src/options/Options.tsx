@@ -1,4 +1,4 @@
-import { useDemoStorage } from "~/stores/useDemoStorage";
+import { useDemoStorage } from "@/stores/useDemoStorage";
 
 export function App() {
 	const { value, setValue } = useDemoStorage();
