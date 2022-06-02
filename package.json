@@ -22,7 +22,7 @@
 		"lint": "eslint '{src,scripts}/**/*.{json,js,jsx,ts,tsx}'",
 		"format": "prettier --write './**/*.{js,jsx,ts,tsx,css,json,md,yml}'",
 		"format:check": "prettier --check './**/*.{js,jsx,ts,tsx,css,json,md,yml}'",
-		"tsc": "tsc --noEmit",
+		"typecheck": "tsc --noEmit",
 		"prepare": "is-ci || husky install"
 	},
 	"lint-staged": {
