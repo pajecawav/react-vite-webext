@@ -24,5 +24,11 @@ export default defineConfig({
 			},
 		},
 	},
+	define: {
+		...sharedConfig.define,
+		// in Vite v3 `process.env` doesn't work in library mode
+		// see https://github.com/vitejs/vite/issues/9186
+		"process.env.NODE_ENV": isDev ? '"development"' : '"production"',
+	},
 	plugins: sharedConfig.plugins,
 });
