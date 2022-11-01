@@ -2,6 +2,7 @@ lockfileVersion: 5.4
 
 specifiers:
   '@ffflorian/jszip-cli': ^3.1.6
+  '@playwright/test': ^1.27.1
   '@types/fs-extra': ^9.0.13
   '@types/node': ^16.11.68
   '@types/react': ^18.0.21
@@ -46,6 +47,7 @@ dependencies:
 
 devDependencies:
   '@ffflorian/jszip-cli': 3.1.6
+  '@playwright/test': 1.27.1
   '@types/fs-extra': 9.0.13
   '@types/node': 16.11.68
   '@types/react': 18.0.21
@@ -551,6 +553,15 @@ packages:
     dependencies:
       '@nodelib/fs.scandir': 2.1.5
       fastq: 1.13.0
+    dev: true
+
+  /@playwright/test/1.27.1:
+    resolution: {integrity: sha512-mrL2q0an/7tVqniQQF6RBL2saskjljXzqNcCOVMUjRIgE6Y38nCNaP+Dc2FBW06bcpD3tqIws/HT9qiMHbNU0A==}
+    engines: {node: '>=14'}
+    hasBin: true
+    dependencies:
+      '@types/node': 17.0.45
+      playwright-core: 1.27.1
     dev: true
 
   /@pnpm/network.ca-file/1.0.1:
@@ -4536,6 +4547,12 @@ packages:
       jsonc-parser: 3.2.0
       mlly: 0.5.14
       pathe: 0.3.7
+    dev: true
+
+  /playwright-core/1.27.1:
+    resolution: {integrity: sha512-9EmeXDncC2Pmp/z+teoVYlvmPWUC6ejSSYZUln7YaP89Z6lpAaiaAnqroUt/BoLo8tn7WYShcfaCh+xofZa44Q==}
+    engines: {node: '>=14'}
+    hasBin: true
     dev: true
 
   /postcss-import/14.1.0_postcss@8.4.18:
