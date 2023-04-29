@@ -36,7 +36,7 @@ specifiers:
   unplugin-auto-import: ^0.15.3
   vite: ^4.3.2
   web-ext: ^7.6.2
-  webext-bridge: ^5.0.5
+  webext-bridge: ^6.0.1
   webextension-polyfill: ^0.10.0
   zustand: ^4.3.7
 
@@ -79,7 +79,7 @@ devDependencies:
   unplugin-auto-import: 0.15.3
   vite: 4.3.3_@types+node@18.16.2
   web-ext: 7.6.2
-  webext-bridge: 5.0.5
+  webext-bridge: 6.0.1
   webextension-polyfill: 0.10.0
 
 packages:
@@ -6120,8 +6120,8 @@ packages:
     engines: {node: '>= 8'}
     dev: true
 
-  /webext-bridge/5.0.5:
-    resolution: {integrity: sha512-STCv6pLfQtUHmZQ96Tmov+CrdGjjc08xG6o/VH7TlDvchAPmXEG7faPdHfIzkcs0qp0sedDkq7oDzXAei19vtw==}
+  /webext-bridge/6.0.1:
+    resolution: {integrity: sha512-GruIrN+vNwbxVCi8UW4Dqk5YkcGA9V0ZfJ57jXP9JXHbrsDs5k2N6NNYQR5e+wSCnQpGYOGAGihwUpKlhg8QIw==}
     dependencies:
       '@types/webextension-polyfill': 0.8.3
       nanoevents: 6.0.2
